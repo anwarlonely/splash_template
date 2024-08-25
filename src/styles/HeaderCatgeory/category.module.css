@@ -1,0 +1,27 @@
+.categoryitem {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 1000;
+    color: white;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  }
+  
+  .show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  

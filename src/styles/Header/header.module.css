@@ -1,0 +1,21 @@
+.inputCustomStyle {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  }
+  
+  .inputCustomStyle1 {
+    border: none;
+    font-size: 14px;
+    
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  }
+
+    
+  .inputCustomStyle2 {
+    border: none;
+    font-size: 14px;
+    
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  }

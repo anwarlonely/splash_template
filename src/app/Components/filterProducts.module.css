@@ -1,0 +1,166 @@
+/* filterProducts.module.css */
+
+.filter-products {
+    position: relative;
+  }
+  
+  .filter-products-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .mega-menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 16px;
+    top: 40px; 
+    right: 0; 
+    width: 40rem; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+  }
+  .menu-section {
+    margin-bottom: 16px;
+  }
+  
+ 
+  
+  .menu-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-section ul li {
+    margin-bottom: 4px;
+  }
+  
+  .range-input {
+    width: 100%; /* Make the range input take up the full width */
+  }
+  
+  .price-range {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  
+  .price-range label {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .filter-button {
+    background-color: #0070f3; /* Adjust color as needed */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .filter-button:hover {
+    background-color: #005bb5; /* Adjust color as needed */
+  }
+  
+  /* Basic checkbox styling */
+/* General styles for both category list and checkbox group */
+.checkbox-group, .category-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .category-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-group label, .category-list label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hide default checkbox */
+  .checkbox-group input[type="checkbox"], .category-list input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  /* Custom checkbox styling */
+  .checkbox-group input[type="checkbox"] + span, .category-list input[type="checkbox"] + span {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+  }
+  
+  .checkbox-group input[type="checkbox"] + span:before, .category-list input[type="checkbox"] + span:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .checkbox-group input[type="checkbox"]:checked + span:before, .category-list input[type="checkbox"]:checked + span:before {
+    background-color: #007bff; /* Change to your desired color */
+    border-color: #007bff;
+  }
+  
+  .checkbox-group input[type="checkbox"]:checked + span:after, .category-list input[type="checkbox"]:checked + span:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    width: 10px;
+    height: 5px;
+    border: solid #fff;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+  }
+  .product-list{
+    cursor: pointer;
+  }
+  .menu-section h3 {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+ 
+  
+  .menu-section h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; /* Adjust the height of the divider */
+    background-color: #e5e8ec;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .menu-section .divider {
+    height: 2px; /* Adjust the height of the divider */
+    background-color: #e5e8ec;
+    margin: 10px 0; /* Adjust the spacing as needed */
+  }

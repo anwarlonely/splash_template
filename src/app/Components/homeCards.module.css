@@ -1,0 +1,43 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically centers the arrows */
+    position: relative; /* Position relative to allow absolute positioning of arrows */
+  }
+  
+  .cards {
+    display: flex;
+    overflow: hidden;
+    width: calc(100% - 80px); /* Adjust based on arrow size */
+  }
+  
+  .card-wrapper {
+    min-width: 200px; /* Adjust based on card size */
+    margin-right: 10px; /* Gap between cards */
+  }
+  
+  .arrow {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent !important; 
+  border: none;
+  font-size: 20px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "klbtheme"; 
+}
+
+
+.left-arrow {
+  left: 10px; /* Distance from the left edge */
+}
+
+.right-arrow {
+  right: 10px; /* Distance from the right edge */
+}

@@ -1,0 +1,117 @@
+.firstDiv {
+  background-color: #d3007e;
+  padding: 10px;
+}
+.contentDiv {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentDiv2 {
+  margin: auto;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+
+  padding: 0px 15% 0px 13.8%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 430px) {
+    .contentDiv2 {
+      grid-template-columns: 1fr; /* Change to single column */
+      padding: 0px 10px; /* Adjust padding for smaller screens */
+      gap: 20px; /* Adjust gap size if necessary */
+    }
+    .copywrite{
+        font-size: 14px;
+        left: -41px;
+        position: relative;
+        font-weight: 600;
+        line-height: 10px;
+        color: white;
+     }
+  }
+
+.t .textcommonStyleFirst {
+  color: white;
+}
+.signUp {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 10px;
+  color: white;
+}
+
+.getEmailText {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+}
+
+.texthover:hover {
+  font-weight: 600;
+  font-size: 14px;
+}
+.inputCustomStyle {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.inputCustomStyle1 {
+  border: none;
+  font-size: 14px;
+
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.textcommonFontStyle {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.textcommonFontStyle1 {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.commonHyperLinkStyle {
+  color: white;
+  text-decoration: none;
+}
+.commonHyperLinkStyle:hover {
+  text-decoration: underline;
+}
+
+.copywrite {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 10px;
+  color: white;
+  
+
+}
+
+.contentDiv3{
+    background-color: #6800bf;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imageStyle{
+    position: relative;
+    height: 43.5px;
+    left: -80px;
+}
