@@ -257,12 +257,12 @@ const RightSideHeader = () => {
 
       <div className="flex flex-row gap-2 cursor-pointer" onClick={()=>router.push(`https://chat.whatsapp.com/GqbzxDeNK588fnEEgYlbO2`)}>
         <WhatsAppIcon
-          style={{ color: "white", fontSize: "2.4rem" }}
+          style={{ color: "#ff1200", fontSize: "2.4rem" }}
           className="icons"
         />
         <div className="flex flex-col text-left">
-          <span className="text-xs text-white span-text">Click Here</span>
-          <span className="text-sm font-semibold text-white text-nowrap span-text">
+          <span className="text-xs  span-text" style={{color:"#ff1200"}}>Click Here</span>
+          <span className="text-sm font-semibold  text-nowrap span-text" style={{color:"#ff1200"}}>
             Join Our Community
           </span>
         </div>
@@ -274,7 +274,7 @@ const RightSideHeader = () => {
           className="flex flex-row gap-2 text-decoration-none"
         >
           <PersonOutlineOutlinedIcon
-            style={{ color: "white", fontSize: "2.4rem" }}
+            style={{ color: "#ff1200", fontSize: "2.4rem" }}
             className="icons"
           />
           <div
@@ -282,8 +282,8 @@ const RightSideHeader = () => {
             className="flex flex-row gap-2 cursor-pointer"
           >
             <div className="flex flex-col text-left">
-              <span className="text-xs text-white span-text">Welcome</span>
-              <span className="text-lg font-semibold text-white span-text">
+              <span className="text-xs  span-text" style={{color:"#ff1200"}}>Welcome</span>
+              <span className="text-lg font-semibold  span-text" style={{color:"#ff1200"}}>
                 {username ? username : "Login/Register"}
               </span>
             </div>
@@ -294,25 +294,26 @@ const RightSideHeader = () => {
       <div className="relative flex flex-row gap-4 cursor-pointer">
         <div className="relative">
           <ShoppingCartIcon
-            style={{ color: "white", fontSize: "2.4rem" }}
+            style={{ color: "#ff1200", fontSize: "2.4rem" }}
             className="icons"
             onClick={handleToggle}
           />
           <span
-            className="absolute top-0 right-0 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center"
+            className="absolute top-0 right-0  text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center"
             style={{
-              backgroundColor: "#d5007e",
+              backgroundColor: "#ff1200",
               transform: "translate(50%, -50%)",
+             
             }}
           >
             {cartItem?.length || 0}
           </span>
         </div>
         <div className="flex flex-col text-left">
-          <span className="text-xs text-white span-text text-center">
+          <span className="text-xs  span-text text-center" style={{color:"#ff1200"}}>
             Total
           </span>
-          <span className="text-sm font-semibold text-white text-nowrap span-text">
+          <span className="text-sm font-semibold  text-nowrap span-text" style={{color:"#ff1200"}}>
             ${totalSubtotal?.toFixed(2) || "0.00"}
           </span>
         </div>

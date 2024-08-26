@@ -349,7 +349,7 @@ export default function LandingPage() {
         "https://ecom-dev.phantasm.digital/_next/image?url=https%3A%2F%2Fad-public-bucket.b-cdn.net%2Fimages%2F1718007986754-1718007986700-BannersGif.gif&w=640&q=75",
     },
   ];
-
+  
   const gifsSliders = [
     {
       altText: " ",
@@ -395,27 +395,27 @@ export default function LandingPage() {
   const centerBanners = [
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/07/geek-bar-pulse-x-website.gif",
+        "https://i.pinimg.com/originals/7d/75/99/7d75997dcd415b124da62b5e4df92900.gif",
     },
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/05/RAZ-DC25000-WEBSITE.gif",
+        "https://im.indiatimes.in/content/2014/Aug/insta_1409378500.gif?w=640&h=427&cc=1&webp=1&q=75",
     },
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/05/lost-mary-mo20k-946x532-946x532-1.gif",
+        "https://i.pinimg.com/originals/2d/63/4a/2d634a1d6a017484526a7be14b5d8c3c.gif",
     },
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/03/HALF-BAKD-DABS.gif",
+        "https://im.indiatimes.in/content/2014/Aug/cc1_1409378556.gif?w=640&h=427&cc=1&webp=1&q=75",
     },
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/05/PIXIEPODWEBSITE.gif",
+        "https://i.pinimg.com/originals/35/9c/33/359c33b58d05836d3d1e2fd3aed306fc.gif",
     },
     {
       img_url:
-        "https://splashdistributors.com/wp-content/uploads/2024/08/MODUS-BREEZY-DISPOSABLE.gif",
+        "https://static.wixstatic.com/media/bc4f04_033fc271c73d4586b4a19a55a48e9757~mv2.gif",
     },
   ];
 
@@ -435,27 +435,27 @@ export default function LandingPage() {
 
   const categoriesBanners = [
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/E-liquid-category-pic.png",
+      img1: "https://i.pinimg.com/564x/36/53/aa/3653aac5c3b29c95676b85a4e2483b4a.jpg",
       id: 1,
     },
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/Disposable-category-pic.png",
+      img1: "https://i.pinimg.com/564x/fd/ee/c9/fdeec9234bd0222a375ade2c713c0ade.jpg",
       id: 2,
     },
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/SmokeShop-category-pic.png",
+      img1: "https://i.pinimg.com/564x/d5/35/4d/d5354d0ff6499e9b480ed703c114317e.jpg",
       id: 3,
     },
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/Glass-category-pic.png",
+      img1: "https://i.pinimg.com/564x/53/75/d7/5375d7558e179e8db9c8ff21572aa8d6.jpg",
       id: 4,
     },
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/Smoke-Accessories-category-pic.png",
+      img1: "https://i.pinimg.com/564x/b8/41/6b/b8416b9f9f4831200060438ce6cb60d7.jpg",
       id: 5,
     },
     {
-      img1: "https://splashdistributors.com/wp-content/uploads/2023/11/Vaporizers-category-pic.png",
+      img1: "https://i.pinimg.com/564x/5c/7f/73/5c7f73bc235d35f122becdde3a7d45f8.jpg",
       id: 6,
     },
   ];
@@ -659,7 +659,7 @@ export default function LandingPage() {
             // padding: "20px",
           }}
         >
-          <SingleStrip banner6={banner6} />
+          <SingleStrip  />
 
           <CenterBanners centerBanners={centerBanners} />
 

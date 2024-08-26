@@ -1,19 +1,15 @@
 import React, { useState } from "react";
 
 const categories = [
-  "Category 1",
-  "Category 2",
-  "Category 3",
-  "Category 4",
-  "Category 5",
-  "Category 6",
-  "Category 7",
-  "Category 8",
-  "Category 9",
-  "Category 10",
-  "Category 11",
-  "Category 12",
-  "Category 13",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+  "Cakes",
+
 ];
 
 const HeaderCategory = () => {
@@ -27,7 +23,7 @@ const HeaderCategory = () => {
         display: "flex",
         justifyContent: "space-around",
        
-        color: "white",
+        color: "#ff1200",
         position: "relative", // Ensure relative positioning for dropdowns
       }}
     >

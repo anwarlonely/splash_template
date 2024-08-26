@@ -263,7 +263,7 @@ export default function HeaderSearchBar({ setSearcVal }) {
       <SearchIconWrapper
         onClick={handleSearchIconClick}
         className="search-wrapper"
-        style={{ backgroundColor: "#D5007E", cursor: "pointer", }}
+        style={{ backgroundColor: "#ff1200", cursor: "pointer", }}
       >
         <SearchIcon
           className="search-icon-1  "
